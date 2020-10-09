@@ -1,0 +1,12 @@
+app_service_name         = "appserviceistin"
+ressource_group_name     = "rg-terraform-cours"
+ressource_group_location = "West Europe"
+always_on                = true
+ftps_state               = "FtpsOnly"
+https_only               = false
+app_service_php_version  = "7.2"
+plan_name                = "planesgi27012020"
+sku_tier                 = "Standard"
+sku_size                 = "S1"
+sku_capacity             = "2"
+kind                     = "Windows"
